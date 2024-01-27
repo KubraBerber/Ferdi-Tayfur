@@ -1,0 +1,39 @@
+
+
+
+:root {
+    --pembe: pink;
+    --siyah: black;
+    --beyaz: white;
+    --pembe-light: rgb(247, 214, 219);
+    --light-black: rgb(196, 196, 196);
+    --gray: rgb(112, 112, 112);
+}
+
+body {
+    background-color: var(--light-black);
+}
+
+.aktif-menu {
+    background-color: pink;
+}
+
+.container {
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+header {
+    background-color: var(--pembe-light);
+    padding: 1rem;
+}
+
+main {
+    background-color: var(--beyaz);
+    padding: 1rem;
+}
+
+footer {
+    background-color: var(--gray);
+    padding: 1rem;
+}
